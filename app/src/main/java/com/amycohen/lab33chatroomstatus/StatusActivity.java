@@ -27,6 +27,8 @@ public class StatusActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         allStatuses = new ArrayList<>();
+        allStatuses.add(new Status("amy", "online", "should totally be working on homework"));
+        allStatuses.add(new Status("gamer", "away", "busy learning fortnite dance"));
 
         linearLayoutManager = new LinearLayoutManager(this);
         statusAdapter = new StatusAdapter(allStatuses);
