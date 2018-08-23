@@ -6,6 +6,8 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.example.chatroomstatus.models.Status;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,12 +22,20 @@ public class StatusActivity extends AppCompatActivity {
 
     List<Status> allStatuses;
 
+    FirebaseDatabase mDatabase;
+    DatabaseReference mUsers;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_status);
 
         ButterKnife.bind(this);
+
+        mDatabase = FirebaseDatabase.getInstance();
+        mUsers = mDatabase.getReference("users");
+
+        attachListeners(mUsers);
 
         allStatuses = new ArrayList<>();
         allStatuses.add(new Status("errandguy", "Away", "out running errands"));
@@ -39,4 +49,8 @@ public class StatusActivity extends AppCompatActivity {
         userList.setLayoutManager(linearLayoutManager);
         userList.setAdapter(statusAdapter);
     }
+
+//    public void attachListeners() {
+//        mUsers.addValueEventListener();
+//    }
 }
