@@ -35,5 +35,6 @@ public class StatusActivity extends AppCompatActivity {
 
         list.setLayoutManager(linearLayoutManager);
         list.setAdapter(statusAdapter);
+        
     }
 }
