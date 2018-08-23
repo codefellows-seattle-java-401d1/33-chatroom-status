@@ -29,5 +29,7 @@ public class LoginActivity extends AppCompatActivity {
 
         //note to self, try refactoring intents with SharedPreferences later
         Intent intent = new Intent(this,StatusActivity.class);
+        intent.putExtra("username", username);
+        startActivity(intent);
     }
 }
