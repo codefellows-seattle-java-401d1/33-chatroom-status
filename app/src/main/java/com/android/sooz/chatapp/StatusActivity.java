@@ -15,12 +15,10 @@ public class StatusActivity extends AppCompatActivity {
     public EditText mEditText;
 
     @BindView(R.id.list)
-    public RecyclerView.Recycler list;
+    public RecyclerView list;
 
     private LinearLayoutManager linearLayoutManager;
     private StatusAdapter statusAdapter;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
