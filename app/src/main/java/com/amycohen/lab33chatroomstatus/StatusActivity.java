@@ -121,6 +121,7 @@ public class StatusActivity extends AppCompatActivity {
     public void setStatus (String status) {
         String username = "amy";
         String statusText = mEditText.getText().toString();
+
         DatabaseReference user = mUsers.child(username);
 
         user.child("status").setValue(status);
