@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ChatRoomStatus</string>
+    <string name="enter_status">Enter status..</string>
+</resources>
