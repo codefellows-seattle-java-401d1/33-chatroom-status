@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.widget.EditText;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -17,12 +18,14 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class StatusActivity extends AppCompatActivity {
 
     public static final String TAG = "FIREBASE: ";
-    @BindView(R.id.list)
-    RecyclerView list;
+    @BindView(R.id.setStatus) EditText mEditText;
+    @BindView(R.id.list) RecyclerView list;
+
     private LinearLayoutManager linearLayoutManager;
     private StatusAdapter statusAdapter;
 
@@ -63,8 +66,6 @@ public class StatusActivity extends AppCompatActivity {
 //        });
 
         allStatuses = new ArrayList<>();
-        allStatuses.add(new Status("amy", "online", "should totally be working on homework"));
-        allStatuses.add(new Status("gamer", "away", "busy learning fortnite dance"));
 
         linearLayoutManager = new LinearLayoutManager(this);
         statusAdapter = new StatusAdapter(allStatuses);
@@ -97,5 +98,32 @@ public class StatusActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    @OnClick(R.id.setOnline)
+    public void setOnline () {
+        setStatus("online");
+    }
+
+    @OnClick(R.id.setAway)
+    public void setAway () {
+        setStatus("away");
+
+    }
+
+    @OnClick(R.id.setOffline)
+    public void setOffline () {
+        setStatus("offline");
+
+    }
+
+
+    public void setStatus (String status) {
+        String username = "amy";
+        String statusText = mEditText.getText().toString();
+        DatabaseReference user = mUsers.child(username);
+
+        user.child("status").setValue(status);
+        user.child("statusText").setValue(statusText);
     }
 }
