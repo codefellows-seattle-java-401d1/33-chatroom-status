@@ -27,11 +27,12 @@ public class StatusList extends AppCompatActivity {
         ButterKnife.bind(this);
 
         allStatus = new ArrayList<>();
+        allStatus.add(new Status("Brando", "away", "Climbing rocks"));
 
         linearLayoutManager = new LinearLayoutManager(this);
-        statusAdapter = new StatusAdapter();
+        statusAdapter = new StatusAdapter(allStatus);
 
         mRecyclerView.setLayoutManager(linearLayoutManager);
-        mRecyclerView.setLayoutManager(statusAdapter);
+        mRecyclerView.setAdapter(statusAdapter);
     }
 }

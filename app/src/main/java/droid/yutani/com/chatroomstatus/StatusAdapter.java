@@ -1,10 +1,13 @@
 package droid.yutani.com.chatroomstatus;
 
+import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.List;
 
@@ -41,13 +44,40 @@ class StatusAdapter extends RecyclerView.Adapter<StatusAdapter.MyStatusViewHolde
         private View mView;
         private Status mStatus;
 
+        public ImageView icon;
+        public TextView username;
+        public TextView statusMsg;
+
         public MyStatusViewHolder (View itemView) {
             super(itemView);
             mView = itemView;
+
+            this.icon = mView.findViewById(R.id.status_icon);
+            this.username = mView.findViewById(R.id.username);
+            this. statusMsg = mView.findViewById(R.id.statusMsg);
         }
 
         public void bind(Status status) {
             mStatus = status;
+
+            this.username.setText(status.username);
+            this.statusMsg.setText(status.statusMsg);
+            setIcon();
+        }
+
+        public void setIcon() {
+            int imgId = R.drawable.red;
+
+            if (mStatus.status.equals("online")) {
+                imgId = R.drawable.green;
+            } else if (mStatus.status.equals("away")) {
+                imgId = R.drawable.yellow;
+            } else if (mStatus.status.equals("offline")) {
+                imgId = R.drawable.red;
+            }
+
+            Drawable drawable = mView.getResources().getDrawable(imgId);
+            icon.setImageDrawable(drawable);
         }
     }
 }
