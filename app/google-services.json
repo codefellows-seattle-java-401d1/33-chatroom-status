@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "121542350491",
+    "firebase_url": "https://chatroom-status-1a828.firebaseio.com",
+    "project_id": "chatroom-status-1a828",
+    "storage_bucket": "chatroom-status-1a828.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121542350491:android:324989c5e9c7f943",
+        "android_client_info": {
+          "package_name": "com.example.tyler.chatroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121542350491-kbkif8ackj9eohdi2ikj9lm0r22u32jh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tyler.chatroom",
+            "certificate_hash": "d3cf9a6adc5c066adbd0151a12bcb949ec6398b9"
+          }
+        },
+        {
+          "client_id": "121542350491-bavpv6t6foa8gjdlttlhimbe3ndok958.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGPsccCXo-3x18vMAnXbuu376ohaavwv8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121542350491-bavpv6t6foa8gjdlttlhimbe3ndok958.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
