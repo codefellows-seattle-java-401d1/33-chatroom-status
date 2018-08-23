@@ -97,7 +97,7 @@ public class StatusList extends AppCompatActivity {
         String statusMsg = mEditText.getText().toString();
 
         DatabaseReference user = mUsers.child(username);
-        user.setValue("status", status);
-        user.setValue("statusMsg", statusMsg);
+        user.child("status").setValue(status);
+        user.child("statusMsg").setValue(statusMsg);
     }
 }
