@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChatStatus</string>
+    <string name="sign_in">Log In</string>
+    <string name="enter_your_status">Select Your Status</string>
+</resources>
