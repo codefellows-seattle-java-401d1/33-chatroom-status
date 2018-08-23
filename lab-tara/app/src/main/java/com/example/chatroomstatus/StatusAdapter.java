@@ -20,6 +20,10 @@ class StatusAdapter extends RecyclerView.Adapter<StatusAdapter.MyStatusViewHolde
         mStatuses = allStatuses;
     }
 
+    public void replaceList(List<Status> statuses) {
+        mStatuses = statuses;
+    }
+
     @NonNull
     @Override
     public MyStatusViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
