@@ -37,6 +37,10 @@ class StatusAdapter extends RecyclerView.Adapter<StatusAdapter.MyStatusViewHolde
         return mStatuses.size();
     }
 
+    public void replaceList(List<Status> statuses) {
+        mStatuses = statuses;
+    }
+
     public class MyStatusViewHolder extends RecyclerView.ViewHolder{
 
         View mView;

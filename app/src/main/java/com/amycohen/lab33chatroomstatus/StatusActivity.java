@@ -29,7 +29,7 @@ public class StatusActivity extends AppCompatActivity {
     List<Status> allStatuses;
 
     FirebaseDatabase mDatabase;
-    DatabaseReference myRef;
+    DatabaseReference mUsers;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,27 +41,26 @@ public class StatusActivity extends AppCompatActivity {
 
         // Write a message to the database
         mDatabase = FirebaseDatabase.getInstance();
-        myRef = mDatabase.getReference("message");
+        mUsers = mDatabase.getReference("users");
 
-        myRef.setValue("Hello, World!");
-
+        attachListeners();
 
         // Read from the database
-        myRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                // This method is called once with the initial value and again
-                // whenever data at this location is updated.
-                String value = dataSnapshot.getValue(String.class);
-                Log.d(TAG, "Value is: " + value);
-            }
-
-            @Override
-            public void onCancelled(DatabaseError error) {
-                // Failed to read value
-                Log.w(TAG, "Failed to read value.", error.toException());
-            }
-        });
+//        mUsers.addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(DataSnapshot dataSnapshot) {
+//                // This method is called once with the initial value and again
+//                // whenever data at this location is updated.
+//                String value = dataSnapshot.getValue(String.class);
+//                Log.d(TAG, "Value is: " + value);
+//            }
+//
+//            @Override
+//            public void onCancelled(DatabaseError error) {
+//                // Failed to read value
+//                Log.w(TAG, "Failed to read value.", error.toException());
+//            }
+//        });
 
         allStatuses = new ArrayList<>();
         allStatuses.add(new Status("amy", "online", "should totally be working on homework"));
@@ -73,5 +72,30 @@ public class StatusActivity extends AppCompatActivity {
         list.setLayoutManager(linearLayoutManager);
         list.setAdapter(statusAdapter);
 
+    }
+
+    public void attachListeners() {
+        mUsers.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                List<Status> statuses = new ArrayList<>();
+
+                for (DataSnapshot child : dataSnapshot.getChildren()){
+                    String username = child.getKey();
+                    String status = child.child("status").getValue(String.class);
+                    String statusText = child.child("statusText").getValue(String.class);
+
+                    Status userStatus = new Status(username, status, statusText);
+                    statuses.add(userStatus);
+                }
+                statusAdapter.replaceList(statuses);
+                statusAdapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
     }
 }
