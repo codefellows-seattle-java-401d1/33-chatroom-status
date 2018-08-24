@@ -24,7 +24,7 @@ public class StatusActivity extends AppCompatActivity {
     private LinearLayoutManager linearLayoutManager;
     private StatusAdapter statusAdapter;
 
-    List<Status> allStatuses;
+    private List<Status> allStatuses;
 
     FirebaseDatabase mDatabase;
     DatabaseReference mUsers;
@@ -42,11 +42,6 @@ public class StatusActivity extends AppCompatActivity {
         attachListeners();
 
         allStatuses = new ArrayList<>();
-        allStatuses.add(new Status("errandguy", "Away", "out running errands"));
-        allStatuses.add(new Status("lurker", "Online", ""));
-        allStatuses.add(new Status("talkyguy", "Online", "what's up!"));
-        allStatuses.add(new Status("climberperson", "Offline", "mt baker 14,020 ft"));
-
         linearLayoutManager = new LinearLayoutManager(this);
         statusAdapter = new StatusAdapter(allStatuses);
 
