@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.widget.EditText;
+import android.widget.ImageView;
 
 import com.example.chatroomstatus.models.Status;
 import com.google.firebase.database.DataSnapshot;
@@ -18,8 +20,11 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class StatusActivity extends AppCompatActivity {
+    @BindView(R.id.setStatus) EditText mEditText;
+
     @BindView(R.id.userList) RecyclerView userList;
     private LinearLayoutManager linearLayoutManager;
     private StatusAdapter statusAdapter;
@@ -73,5 +78,29 @@ public class StatusActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    @OnClick(R.id.setOnline)
+    public void setOnline() {
+        setStatus("Online");
+    }
+
+    @OnClick(R.id.setAway)
+    public void setAway() {
+        setStatus("Away");
+    }
+
+    @OnClick(R.id.setOffline)
+    public void setOffline() {
+        setStatus("Offline");
+    }
+
+    public void setStatus(String status) {
+        String username = "Jerry";
+        String statusText = mEditText.getText().toString();
+
+        DatabaseReference user = mUsers.child(username);
+        user.child("status").setValue(status);
+        user.child("statusText").setValue(statusText);
     }
 }
