@@ -122,7 +122,7 @@ public class StatusActivity extends AppCompatActivity {
     }
 
     public void setStatus(String status) {
-        String username = "Jerry";
+        String username = mUsername;
         String statusText = mEditText.getText().toString();
 
         DatabaseReference user = mUsers.child(username);
