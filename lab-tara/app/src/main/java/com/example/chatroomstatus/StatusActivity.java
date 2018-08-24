@@ -24,6 +24,8 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class StatusActivity extends AppCompatActivity {
+    public static final String USERNAME_EXTRA = "username";
+
     @BindView(R.id.setStatus) EditText mEditText;
 
     @BindView(R.id.userList) RecyclerView userList;
@@ -61,7 +63,7 @@ public class StatusActivity extends AppCompatActivity {
 
     private void initializeUsername() {
         Intent data = getIntent();
-        mUsername = data.getStringExtra("username");
+        mUsername = data.getStringExtra(StatusActivity.USERNAME_EXTRA);
 
         mUsers.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
