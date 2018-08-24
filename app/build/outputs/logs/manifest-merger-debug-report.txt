@@ -1,0 +1,255 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/520ac4c8f3c6a8ec264396ee8c55219f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/sooz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/b0a70c55a9d2bc8037e03c38858459a3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-database-11.8.0.aar/e84f0b00c6b116e65b5500b8aea96f23/AndroidManifest.xml:2:1-8:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha1.aar/73dd5f39d71c71045d853154daf28dce/AndroidManifest.xml:17:1-23:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/332b6338c710f16de5ef071f4be8c7f0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sooz/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/bd128b76bf3c61b77506777c59b4c703/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc01.aar/3354c418c90a11a46829b510fcfe900c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc01.aar/c86b160d5fc37ce9fcbbefae2b658ada/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-connection:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.8.0.aar/5f4a410a2db090d29ba91184b8152f65/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/aca0fe98c15047ba52128e42c821bb68/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/ec3e9e760ce41ac626c4910661ecde6f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/cd6c05f7edeadd8ce0b27c492e8a126b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.2.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/03e361e9463543b574d7cb76dd898695/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/4bda01cbb127fe5171f21385ac1e35fb/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc01.aar/c61db9b5fbc06f392c1d2ea7c6794573/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc01.aar/b1b03c5ec7f08ed54d21592034fd459c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc01.aar/7c141e97226524910458fdc6bc84927e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc01.aar/9ace1b3bc92d7d36e9fbbaea1ce35990/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc01.aar/bca7d7721af056f6ea0b9f40931f90a7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc01.aar/9c22cb688511779184d4aab9121782ae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc01.aar/809666b758e76ad40f0e3af134d18bea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc01.aar/d0a445ef91846060431855061cfcec9a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc01.aar/00d06d4f090861089bd02559076a64c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc01.aar/b5db85d5a3ca42359500233b26c57909/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc01.aar/1a042174eeee1546b2957bb7deefb4cb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/d5937a9855310f8ba03a1729f6962ae9/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc01.aar/4d71638c45475063a9c7f56ad1710c5c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc01.aar/fb2823293720e224eb582f48628b48fc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/a842d107ef4a10ad01fa70e484885242/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d6f556be97007144e1ae1c45977e8871/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/dcd043dd6ee0c2d7fc96633fc8420d70/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8133827e188558d123dc55af4142d28c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc01.aar/1b261c0fd21b349d36f90e702e4f4cda/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc01.aar/0fc7044710c860e558b65b60759d4d3d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc01.aar/dde2a0e0d1616253ea1b242316c87deb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc01.aar/6341662109fb089668d9e2c7a30f18a4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/03958ce21d1501edb6de343736c41a18/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/c4176714f8ef29494227ce82c987bb64/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/4d0cf53a0514a9168cd4c0408f406a42/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/9bb644446c2a67ca9ae2732df66fedba/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/9e4ad866522e095664a58e61ae2e7122/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/756d101ef962340cd0564af8998b5810/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:5:5-20:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/sooz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/b0a70c55a9d2bc8037e03c38858459a3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/sooz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/b0a70c55a9d2bc8037e03c38858459a3/AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sooz/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/bd128b76bf3c61b77506777c59b4c703/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sooz/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/bd128b76bf3c61b77506777c59b4c703/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/aca0fe98c15047ba52128e42c821bb68/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/aca0fe98c15047ba52128e42c821bb68/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/ec3e9e760ce41ac626c4910661ecde6f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/ec3e9e760ce41ac626c4910661ecde6f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/cd6c05f7edeadd8ce0b27c492e8a126b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/cd6c05f7edeadd8ce0b27c492e8a126b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:25.2.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/03e361e9463543b574d7cb76dd898695/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/03e361e9463543b574d7cb76dd898695/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/4bda01cbb127fe5171f21385ac1e35fb/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/4bda01cbb127fe5171f21385ac1e35fb/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/d5937a9855310f8ba03a1729f6962ae9/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/d5937a9855310f8ba03a1729f6962ae9/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc01.aar/4d71638c45475063a9c7f56ad1710c5c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc01.aar/4d71638c45475063a9c7f56ad1710c5c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/c4176714f8ef29494227ce82c987bb64/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/c4176714f8ef29494227ce82c987bb64/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/4d0cf53a0514a9168cd4c0408f406a42/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/4d0cf53a0514a9168cd4c0408f406a42/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/9bb644446c2a67ca9ae2732df66fedba/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/9bb644446c2a67ca9ae2732df66fedba/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/9e4ad866522e095664a58e61ae2e7122/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/9e4ad866522e095664a58e61ae2e7122/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/756d101ef962340cd0564af8998b5810/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/756d101ef962340cd0564af8998b5810/AndroidManifest.xml:5:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/d5937a9855310f8ba03a1729f6962ae9/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.android.sooz.chatapp.LoginActivity
+ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:12:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.android.sooz.chatapp.StatusActivity
+ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:19:9-61
+	android:name
+		ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:19:19-49
+uses-permission#android.permission.INTERNET
+ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:22:5-83
+	android:name
+		ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml:22:22-64
+uses-sdk
+INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/520ac4c8f3c6a8ec264396ee8c55219f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/520ac4c8f3c6a8ec264396ee8c55219f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/sooz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/b0a70c55a9d2bc8037e03c38858459a3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/sooz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/b0a70c55a9d2bc8037e03c38858459a3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-database-11.8.0.aar/e84f0b00c6b116e65b5500b8aea96f23/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-database-11.8.0.aar/e84f0b00c6b116e65b5500b8aea96f23/AndroidManifest.xml:6:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha1.aar/73dd5f39d71c71045d853154daf28dce/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha1.aar/73dd5f39d71c71045d853154daf28dce/AndroidManifest.xml:21:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/332b6338c710f16de5ef071f4be8c7f0/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/332b6338c710f16de5ef071f4be8c7f0/AndroidManifest.xml:5:5-43
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sooz/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/bd128b76bf3c61b77506777c59b4c703/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sooz/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/bd128b76bf3c61b77506777c59b4c703/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc01.aar/3354c418c90a11a46829b510fcfe900c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc01.aar/3354c418c90a11a46829b510fcfe900c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc01.aar/c86b160d5fc37ce9fcbbefae2b658ada/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc01.aar/c86b160d5fc37ce9fcbbefae2b658ada/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.8.0.aar/5f4a410a2db090d29ba91184b8152f65/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.8.0.aar/5f4a410a2db090d29ba91184b8152f65/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/aca0fe98c15047ba52128e42c821bb68/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/aca0fe98c15047ba52128e42c821bb68/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/ec3e9e760ce41ac626c4910661ecde6f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/ec3e9e760ce41ac626c4910661ecde6f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/cd6c05f7edeadd8ce0b27c492e8a126b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/cd6c05f7edeadd8ce0b27c492e8a126b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.2.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/03e361e9463543b574d7cb76dd898695/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/03e361e9463543b574d7cb76dd898695/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/4bda01cbb127fe5171f21385ac1e35fb/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/4bda01cbb127fe5171f21385ac1e35fb/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc01.aar/c61db9b5fbc06f392c1d2ea7c6794573/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc01.aar/c61db9b5fbc06f392c1d2ea7c6794573/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc01.aar/b1b03c5ec7f08ed54d21592034fd459c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc01.aar/b1b03c5ec7f08ed54d21592034fd459c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc01.aar/7c141e97226524910458fdc6bc84927e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc01.aar/7c141e97226524910458fdc6bc84927e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc01.aar/9ace1b3bc92d7d36e9fbbaea1ce35990/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc01.aar/9ace1b3bc92d7d36e9fbbaea1ce35990/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc01.aar/bca7d7721af056f6ea0b9f40931f90a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc01.aar/bca7d7721af056f6ea0b9f40931f90a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc01.aar/9c22cb688511779184d4aab9121782ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc01.aar/9c22cb688511779184d4aab9121782ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc01.aar/809666b758e76ad40f0e3af134d18bea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc01.aar/809666b758e76ad40f0e3af134d18bea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc01.aar/d0a445ef91846060431855061cfcec9a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc01.aar/d0a445ef91846060431855061cfcec9a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc01.aar/00d06d4f090861089bd02559076a64c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc01.aar/00d06d4f090861089bd02559076a64c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc01.aar/b5db85d5a3ca42359500233b26c57909/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc01.aar/b5db85d5a3ca42359500233b26c57909/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc01.aar/1a042174eeee1546b2957bb7deefb4cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc01.aar/1a042174eeee1546b2957bb7deefb4cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/d5937a9855310f8ba03a1729f6962ae9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/d5937a9855310f8ba03a1729f6962ae9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc01.aar/4d71638c45475063a9c7f56ad1710c5c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc01.aar/4d71638c45475063a9c7f56ad1710c5c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc01.aar/fb2823293720e224eb582f48628b48fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc01.aar/fb2823293720e224eb582f48628b48fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/a842d107ef4a10ad01fa70e484885242/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/a842d107ef4a10ad01fa70e484885242/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d6f556be97007144e1ae1c45977e8871/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d6f556be97007144e1ae1c45977e8871/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/dcd043dd6ee0c2d7fc96633fc8420d70/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/dcd043dd6ee0c2d7fc96633fc8420d70/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8133827e188558d123dc55af4142d28c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8133827e188558d123dc55af4142d28c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc01.aar/1b261c0fd21b349d36f90e702e4f4cda/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc01.aar/1b261c0fd21b349d36f90e702e4f4cda/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc01.aar/0fc7044710c860e558b65b60759d4d3d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc01.aar/0fc7044710c860e558b65b60759d4d3d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc01.aar/dde2a0e0d1616253ea1b242316c87deb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc01.aar/dde2a0e0d1616253ea1b242316c87deb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc01.aar/6341662109fb089668d9e2c7a30f18a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc01] /Users/sooz/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc01.aar/6341662109fb089668d9e2c7a30f18a4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/03958ce21d1501edb6de343736c41a18/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sooz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/03958ce21d1501edb6de343736c41a18/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/c4176714f8ef29494227ce82c987bb64/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/c4176714f8ef29494227ce82c987bb64/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/4d0cf53a0514a9168cd4c0408f406a42/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/4d0cf53a0514a9168cd4c0408f406a42/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/9bb644446c2a67ca9ae2732df66fedba/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/9bb644446c2a67ca9ae2732df66fedba/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/9e4ad866522e095664a58e61ae2e7122/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/9e4ad866522e095664a58e61ae2e7122/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/756d101ef962340cd0564af8998b5810/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/756d101ef962340cd0564af8998b5810/AndroidManifest.xml:4:5-43
+INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.2.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/03e361e9463543b574d7cb76dd898695/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sooz/codefellows/401Java/Labs/33-chatroom-status/app/src/main/AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sooz/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/bd128b76bf3c61b77506777c59b4c703/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sooz/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/bd128b76bf3c61b77506777c59b4c703/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sooz/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/bd128b76bf3c61b77506777c59b4c703/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sooz/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/bd128b76bf3c61b77506777c59b4c703/AndroidManifest.xml:9:13-64
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/aca0fe98c15047ba52128e42c821bb68/AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/aca0fe98c15047ba52128e42c821bb68/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/aca0fe98c15047ba52128e42c821bb68/AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/aca0fe98c15047ba52128e42c821bb68/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/aca0fe98c15047ba52128e42c821bb68/AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/cd6c05f7edeadd8ce0b27c492e8a126b/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/cd6c05f7edeadd8ce0b27c492e8a126b/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/sooz/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/cd6c05f7edeadd8ce0b27c492e8a126b/AndroidManifest.xml:24:13-58
