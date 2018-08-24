@@ -27,7 +27,7 @@ public class SignInActivity extends AppCompatActivity {
         String usernmame = mUsernameInput.getText().toString();
 
         Intent intent = new Intent(this, StatusActivity.class);
-        intent.putExtra("username", usernmame);
+        intent.putExtra(StatusActivity.USERNAME_EXTRA, usernmame);
         startActivity(intent);
     }
 }
