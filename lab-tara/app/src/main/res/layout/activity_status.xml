@@ -32,18 +32,18 @@
         <ImageView
             android:id="@+id/setOnline"
             android:src="@drawable/green"
-            android:layout_width="50sp"
-            android:layout_height="50sp" />
+            android:layout_width="40sp"
+            android:layout_height="40sp" />
         <ImageView
             android:id="@+id/setAway"
             android:src="@drawable/yellow"
-            android:layout_width="50sp"
-            android:layout_height="50sp" />
+            android:layout_width="40sp"
+            android:layout_height="40sp" />
         <ImageView
             android:id="@+id/setOffline"
             android:src="@drawable/red"
-            android:layout_width="50sp"
-            android:layout_height="50sp" />
+            android:layout_width="40sp"
+            android:layout_height="40sp" />
 
     </LinearLayout>
 
