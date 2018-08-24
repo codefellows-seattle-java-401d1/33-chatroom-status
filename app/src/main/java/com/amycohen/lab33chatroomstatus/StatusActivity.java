@@ -1,5 +1,6 @@
 package com.amycohen.lab33chatroomstatus;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -12,6 +13,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.koushikdutta.async.DataEmitterBase;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,6 +30,9 @@ public class StatusActivity extends AppCompatActivity {
 
     private LinearLayoutManager linearLayoutManager;
     private StatusAdapter statusAdapter;
+
+    //keep track of the users username
+    private String mUsername;
 
     List<Status> allStatuses;
 
@@ -47,6 +52,7 @@ public class StatusActivity extends AppCompatActivity {
         mUsers = mDatabase.getReference("users");
 
         attachListeners();
+        initializeUsername();
 
         // Read from the database
 //        mUsers.addValueEventListener(new ValueEventListener() {
@@ -73,6 +79,27 @@ public class StatusActivity extends AppCompatActivity {
         list.setLayoutManager(linearLayoutManager);
         list.setAdapter(statusAdapter);
 
+    }
+
+    private void initializeUsername() {
+        Intent data = getIntent();
+        mUsername = data.getStringExtra("username");
+
+        mUsers.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+               if(!dataSnapshot.hasChild(mUsername)) {
+                    DatabaseReference userRef = mUsers.child(mUsername);
+                    userRef.child("status").setValue("online");
+                    userRef.child("statusText").setValue("");
+               }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
     }
 
     public void attachListeners() {
@@ -117,9 +144,8 @@ public class StatusActivity extends AppCompatActivity {
 
     }
 
-
     public void setStatus (String status) {
-        String username = "amy";
+        String username = mUsername;
         String statusText = mEditText.getText().toString();
 
         DatabaseReference user = mUsers.child(username);
