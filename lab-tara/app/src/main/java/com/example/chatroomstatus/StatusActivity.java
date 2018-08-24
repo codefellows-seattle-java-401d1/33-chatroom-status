@@ -1,5 +1,6 @@
 package com.example.chatroomstatus;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -34,6 +35,9 @@ public class StatusActivity extends AppCompatActivity {
     FirebaseDatabase mDatabase;
     DatabaseReference mUsers;
 
+    // Keep track of the users username
+    private String mUsername;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +49,7 @@ public class StatusActivity extends AppCompatActivity {
         mUsers = mDatabase.getReference("users");
 
         attachListeners();
+        initializeUsername();
 
         allStatuses = new ArrayList<>();
         linearLayoutManager = new LinearLayoutManager(this);
@@ -52,6 +57,27 @@ public class StatusActivity extends AppCompatActivity {
 
         userList.setLayoutManager(linearLayoutManager);
         userList.setAdapter(statusAdapter);
+    }
+
+    private void initializeUsername() {
+        Intent data = getIntent();
+        mUsername = data.getStringExtra("username");
+
+        mUsers.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if (!dataSnapshot.hasChild(mUsername)) {
+                    DatabaseReference userRef = mUsers.child(mUsername);
+                    userRef.child("status").setValue("Online");
+                    userRef.child("statusText").setValue("");
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
     }
 
     public void attachListeners() {
