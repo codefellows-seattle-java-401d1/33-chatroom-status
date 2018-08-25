@@ -22,7 +22,7 @@
 
         <EditText
             android:id="@+id/setStatus"
-            android:text="@string/enter_your_status"
+            android:hint="@string/enter_your_status"
             android:textSize="25sp"
             android:layout_weight="1"
             android:layout_width="0sp"

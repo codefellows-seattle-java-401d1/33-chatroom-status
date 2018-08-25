@@ -9,7 +9,7 @@
 
    <EditText
        android:id="@+id/usernameInput"
-       android:text="@string/enter_username"
+       android:hint="@string/enter_username"
        android:textSize="30sp"
        android:textAlignment="center"
        android:layout_width="match_parent"

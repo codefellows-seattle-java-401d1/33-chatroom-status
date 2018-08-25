@@ -62,8 +62,9 @@ public class StatusActivity extends AppCompatActivity {
     }
 
     private void initializeUsername(){
+        String username = "username";
         Intent data = getIntent();
-        mUsername = data.getStringExtra("username");
+        mUsername = data.getStringExtra(username);
 
         mUsers.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
